@@ -31,6 +31,10 @@ p {
   color: #4A403A;
 }
 
+a:hover {
+  background-color: #FFC069;
+}
+
 .container {
     width: 700px;
     margin: 40px auto;

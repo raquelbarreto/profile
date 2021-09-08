@@ -1,0 +1,76 @@
+body {
+  background: #EFEFEF;
+  font-family: 'Azeret Mono', monospace;
+  font-weight: 300; /* if you want the light version */
+  color: #A45D5D
+}
+
+a {
+    font-family: 'Azeret Mono', monospace;
+    text-decoration: none;
+    color: #4A403A;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+  color: #4A403A;
+}
+
+::marker {
+  color: #4A403A;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+
+
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
